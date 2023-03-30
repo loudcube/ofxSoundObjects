@@ -1,5 +1,7 @@
 # Some general ignore patterns
 
+*/.vs
+
 */bin/*
 !*/bin/data/
 */bin/data/*.wav

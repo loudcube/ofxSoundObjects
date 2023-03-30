@@ -396,6 +396,7 @@ void ofxSingleSoundPlayer::updatePositions(int nFrames){
 			}else{
 				pos += nFrames * relativeSpeed.load();
 			}
+
 			if (isLooping()) {
 				pos %= nf;
 				if (pos == nf-1 || prevPos > pos) {	// looped?

@@ -65,7 +65,7 @@ void VUMeter::calculate(ofSoundBuffer &input){
 	
 	
 	auto t = ofGetElapsedTimeMillis();
-	
+	 
 	if(ofxSoundUtils::getBufferPeaks(input, processData.peak, processData.holdPeak)){
 		lastPeakTime = t;
 		processData.lastPeak = processData.peak;
